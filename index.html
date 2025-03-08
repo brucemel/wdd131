@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>wdd131</h1>
-</body>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 131 - Dynamic Web Fundamentals - Bruce Melendez Lozano</title>
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals">
+        <meta name="author" content="Bruce Melendez">
+        <link rel="stylesheet" href="styles/base.css">
+    </head>
+    <body>
+        <header>
+            <h1>WDD 131 - Dynamic Web Fundamentals - Bruce Melendez Lozano</h1>
+            <nav>
+                <a href="https://www.linkedin.com/in/bruce-melendez-607756339/">LinkedIn</a>
+                <a href="https://byupw.instructure.com/">Canvas</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/jacob/1?lang=eng&id=p19#p19">Scripture</a>
+                <a href="#">Final Project</a>
+            </nav>
+        </header>
+        <main> 
+            <section class="card">
+                <h2>About Me</h2>
+                <img src="images/yo.webp" alt="Hello, my name is Bruce Melendez" width="100">
+                <p> Hello! my name is Bruce Meléndez and I from Cajabamba, Peru. 
+                    I have been a member of The Church of Jesus Christ of Latter-day Saints 
+                    since I was 13 years old. I served a mission in the Peru Lima West Mission. 
+                    I enjoy doing many things, including riding bicycles, driving cars, spending time 
+                    with friends and family, watching movies, and I also like anime.
+                    I have a hobby that is being able to take photographs of landscapes, 
+                    I have had the opportunity to travel to some places in Peru and 
+                    I have not missed the opportunity to take as many photos as possible. 
+                    I am currently 21 years old and every day I learn about life and its challenges.</p>
+                <h2>Cajabamba, Peru</h2>
+                <img src="images/Bandera_de_Cajabamba.png" alt="Cajabamba flag" width="100">
+                <p>Cajabamba is a Peruvian city, the capital of the district and province of the same name, 
+                    located in the department of Cajamarca. 
+                    The district has a population of approximately 30,000 inhabitants. 
+                    The city of Cajabamba was declared a historical monument of Peru on June 26, 1987.</p>
+            </section>
+            <section>
+                <h2>Web Dev Resources</h2>
+                <ul>
+                    <li>
+                        <a href="https://dev.to/" target="_blank">Dev.to Community</a>
+                    </li>
+                    <li>
+                        <a href="https://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a>
+                    </li>
+                    <li>
+                        <a href="https://css-tricks.com/" target="_blank">CSS Tricks</a>
+                    </li>
+                    <li>
+                        <a href="https://www.w3schools.com/" target="_blank">W3 Schools</a>
+                    </li>
+                    <li>
+                        <a href="https://www.udemy.com/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Branded-Topic_la.ES_cc.LATAM&campaigntype=Search&portfolio=BrandTopic&language=ES&product=Course&test=&audience=Keyword&topic=&priority=&utm_content=deal4584&utm_term=_._ag_122876139243_._ad_604231009895_._kw_cursos%20en%20l%C3%ADnea%20udemy_._de_c_._dm__._pl__._ti_kwd-1394266915329_._li_9186169_._pd__._&matchtype=b&gad_source=1&gclid=Cj0KCQiAz6q-BhCfARIsAOezPxkCTVTMJlPTsJ2l0PEH8uIOgPmcQMMhXsQ2H12yixnG_IyF0b5DRGgaAnGiEALw_wcB" target="_blank">Udemy</a>
+                    </li>
+                    <li>
+                        <a href="https://placehold.co/" target="_blank">Image Placeholder</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>
+                &copy; <span id="currentyear"></span> 😁 Bruce Melendez Lozano 😁 Cajabamba
+            </p>
+            <p id="lastModified">Last Modification:</p>
+            <script>
+                document.getElementById("currentyear").textContent = new Date().getFullYear();
+                document.getElementById("lastModified").textContent = "Última modificación: " + document.lastModified;
+            </script>
+        </footer>
+  </body>
 </html>
