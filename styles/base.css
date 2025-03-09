@@ -54,8 +54,9 @@ nav a{
     color: #fff;
 }
 
-nav :hover{
+nav a:hover{
     color: var(--accent2-color);
+    text-decoration: underline;
 }
 
 body {
