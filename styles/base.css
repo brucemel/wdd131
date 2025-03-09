@@ -1,4 +1,48 @@
+:root {
+    --primary-color: #0077cc;
+    --secondary-color: #464748;
+    --accent1-color:#fff;
+    --accent2-color: #fcff46;
+}
+
+
 * {
     max-width: 800px;
     margin: auto;
 }
+
+h2{
+    background-color: #0077cc;
+    padding: 1rem;
+}
+
+.title1, .title2{
+    display: inline-block;
+    margin-right: -20px;
+    color: var(--accent1-color)
+}
+
+.title2{
+    color: var(--accent2-color);
+    padding-right: 33px;
+}
+
+nav{
+    background-color: #464748;
+	border: 1px solid rgb(0 0 0 / 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    padding: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+

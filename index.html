@@ -7,10 +7,15 @@
         <meta name="description" content="WDD 131 - Dynamic Web Fundamentals">
         <meta name="author" content="Bruce Melendez">
         <link rel="stylesheet" href="styles/base.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>WDD 131 - Dynamic Web Fundamentals - Bruce Melendez Lozano</h1>
+            <h2 class="title1">WDD 131: Dynamic Web Fundamentals -</h2> 
+            <h2 class="title2">Bruce Melendez Lozano</h2>
             <nav>
                 <a href="https://www.linkedin.com/in/bruce-melendez-607756339/">LinkedIn</a>
                 <a href="https://byupw.instructure.com/">Canvas</a>
@@ -67,10 +72,6 @@
                 &copy; <span id="currentyear"></span> 😁 Bruce Melendez Lozano 😁 Cajabamba
             </p>
             <p id="lastModified">Last Modification:</p>
-            <script>
-                document.getElementById("currentyear").textContent = new Date().getFullYear();
-                document.getElementById("lastModified").textContent = "Última modificación: " + document.lastModified;
-            </script>
         </footer>
   </body>
 </html>
