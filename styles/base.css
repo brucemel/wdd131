@@ -54,6 +54,10 @@ nav a{
     color: #fff;
 }
 
+nav :hover{
+    color: var(--accent2-color);
+}
+
 body {
     font-family: "Raleway", sans-serif;
 }
@@ -113,10 +117,4 @@ h3{
 .card2 a {
     color: #1e497c;
     font-weight: bold;
-}
-
-@media (min-width: 640px) {
-	nav {
-		color: var(--accent1-color)
-	}
 }
