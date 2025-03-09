@@ -120,3 +120,9 @@ h3{
     color: #1e497c;
     font-weight: bold;
 }
+
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+}
