@@ -1,0 +1,30 @@
+@media (min-width: 748px) {
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	nav ul {
+		justify-content: flex-end;
+		flex-direction: row;
+		overflow: hidden;
+	}
+	nav a {
+		flex: 1 1 100%;
+	}
+}
+
+@media (max-width: 700px) {
+    div {
+      grid-template-columns: repeat(2, 1fr);
+    }
+	#menu{
+		display: block;
+	}
+}
+
+@media (max-width: 500px) {
+    div {
+      grid-template-columns: repeat(1, 1fr);
+    }
+}
