@@ -14,8 +14,44 @@
         <script src="scripts/place.js" defer></script>
     </head>
     <body>
-        <header>
+        <header class="titulo" >
             <h1>Madagascar</h1>
         </header>
+        <main>
+            <div>
+                <picture>
+                    <source srcset="images/madagascar.webp" media="(min-width: 1000px)">
+                    <source srcset="images/rey.webp" media="(min-width: 500px)">
+                    <img  class="picture" src="images/rey.webp" alt="madagascarpicture1">
+                </picture>
+            </div>
+            <div class="card">
+                <h2>Data</h2>
+                <p><strong>Area:</strong> 587,041 sq km</p>
+                <p><strong>Population:</strong> 27,691,018</p>
+                <p><strong>Capital:</strong> Antananarivo</p>
+                <p><strong>Languages:</strong> Malagasy, French</p>
+                <p><strong>Currency:</strong> Malagasy Ariary</p>
+                <p><strong>Time Zone:</strong> UTC+3</p>
+                <p><strong>Calling Code:</strong> +261</p>
+                <p><strong>Internet TLD:</strong> .mg</p>
+            </div>
+            <div>
+                <div>
+                    <h3>Weather</h3>
+                    <img src="images/1530391_weather_clouds_sun_sunny_icon.svg" alt="sunlogo">
+                </div>
+                <p><strong>Temperature:</strong> <span id="temperature">10</span> °C</p>
+                <p><strong>Conditions:</strong> Partly Cloudy</p>
+                <p><strong>Wind:</strong> <span id="windSpeed">5</span> km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windChill">-</span> °C</p>
+            </div>
+        </main>
+        <footer>
+            <p class="yeardate">
+                &copy; <span id="currentyear"></span> 😁 Bruce Melendez Lozano 😁 Cajabamba
+            </p>
+            <p class="date" id="lastModified">Last Modification: </p>
+        </footer>
     </body>
 </html>

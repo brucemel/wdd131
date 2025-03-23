@@ -1,0 +1,10 @@
+*{
+    max-width: 800px;
+    margin: auto;
+}
+
+.titulo{
+    border: 20px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
