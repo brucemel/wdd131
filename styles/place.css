@@ -1,10 +1,17 @@
 *{
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
 .titulo{
-    border: 20px;
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    background-color: rgb(192, 20, 20);
+    padding: 25px;
+    font-size: 20px;
+}
+
+.picture{
+    padding-top: 15px;
+    background-color: green;
 }
