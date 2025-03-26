@@ -141,4 +141,45 @@
     .datah2::after{
         content: "📊";
     }
+
+    footer{
+        text-align: center;
+        color: white;
+        background-color: rgb(192, 20, 20);
+        margin-top: -4px;
+        padding: 20px;
+        padding-bottom: 30px;
+    }
+
+    .yeardate, .date{
+        font-size: 15px;
+    }
+    .card{
+        text-align: center;
+        border-bottom: 0.5px solid rgb(0, 0, 0, 0.2);
+    }
+
+    .datah2{
+        padding: 10px;
+    }
+
+    .inter{
+        padding-bottom: 10px;
+    }
+
+    .card1{
+        text-align: center;
+    }
+
+    h3{
+        padding: 10px;
+    }
+    
+    .sunset{
+        width: 70px;
+    }
+
+    .wind{
+        padding-bottom: 10px;
+    }
 }
