@@ -1,108 +1,139 @@
-*{
-    max-width: 900px;
-    margin: auto;
+:root{
+    --primary-color: white;
 }
 
-.titulo{
-    text-align: center;
-    color: white;
-    background-color: rgb(192, 20, 20);
-    padding: 25px;
-    font-size: 20px;
+@media (min-width: 900px) {
+
+    *{
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .titulo{
+        text-align: center;
+        color: var(--primary-color);
+        background-color: rgb(192, 20, 20);
+        padding: 25px;
+        font-size: 20px;
+    }
+
+    .picture{
+        padding-top: 15px;
+        background-color: green;
+    }
+
+    body{
+        font-family: Roboto, sans-serif;
+    }
+
+    .card{
+        background: rgba(255, 255, 255, 0.8) ;
+        position: absolute;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h2{
+        background-color: rgb(0, 128, 0);
+        color: white;
+        margin-left: -28px;
+        text-align: left;
+        padding: 10px;
+        padding-right: 100px;
+        margin-top: -10px;
+    }
+
+    p{
+    padding: 5px;
+    font-size: 12px;
+    }
+
+    .area{
+        margin-top: 10px;
+    }
+
+    .card1{
+        position: absolute;
+        background: rgba(255, 255, 255, 0.8) ;
+        position: absolute;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h3{
+        background-color: rgb(0, 128, 0, 0.8);
+        color: white;
+        margin-left: -28px;
+        text-align: left;
+        padding: 15px;
+        padding-right: 100px;
+        margin-top: -10px;
+        margin-bottom: -20px;
+    }
+
+    .temp{
+        margin-top: 10px;
+    }
+
+    .sunset{
+        margin-top: -30px;
+        margin-left: 35px;
+    }
+
+    .card, .card1{
+        grid-template-columns: max-content;
+    }
+
+    .card{
+        top: 35px;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    .card1{
+        bottom: 10px;
+        margin-left: 700px;
+        margin-bottom: 100px;
+    }
+
+    footer{
+        text-align: center;
+        color: white;
+        background-color: rgb(192, 20, 20);
+        margin-top: -4px;
+        padding: 20px;
+        padding-bottom: 40px;
+    }
+
+    .yeardate, .date{
+        font-size: 15px;
+    }
+
+    .date{
+        margin-top: -10px;
+    }
 }
 
-.picture{
-    padding-top: 15px;
-    background-color: green;
-}
+@media (max-width: 500px) {
+    *{
+        max-width: 500px;
+        margin: auto;
+    }
+    .titulo{
+        text-align: center;
+        color: white;
+        background-color: rgb(192, 20, 20);
+        padding: 25px;
+        font-size: 20px;
+    }
 
-body{
-    font-family: Roboto, sans-serif;
-}
+    .picture{
+        padding-top: 15px;
+        background-color: green;
+        width: 485px;
+    }
 
-.card{
-    background: rgba(255, 255, 255, 0.8) ;
-    position: absolute;
-    text-align: center;
-    padding: 20px;
-}
-
-h2{
-    background-color: rgb(0, 128, 0);
-    color: white;
-    margin-left: -28px;
-    text-align: left;
-    padding: 10px;
-    padding-right: 100px;
-    margin-top: -10px;
-}
-
-p{
-   padding: 5px;
-   font-size: 12px;
-}
-
-.area{
-    margin-top: 10px;
-}
-
-.card1{
-    position: absolute;
-    background: rgba(255, 255, 255, 0.8) ;
-    position: absolute;
-    text-align: center;
-    padding: 20px;
-}
-
-h3{
-    background-color: rgb(0, 128, 0, 0.8);
-    color: white;
-    margin-left: -28px;
-    text-align: left;
-    padding: 15px;
-    padding-right: 100px;
-    margin-top: -10px;
-    margin-bottom: -20px;
-}
-
-.temp{
-    margin-top: 10px;
-}
-
-.sunset{
-    margin-top: -30px;
-    margin-left: 35px;
-}
-
-.card, .card1{
-    grid-template-columns: max-content;
-}
-
-.card{
-    top: 35px;
-    margin-left: 20px;
-    margin-top: 100px;
-}
-
-.card1{
-    bottom: 10px;
-    margin-left: 700px;
-    margin-bottom: 100px;
-}
-
-footer{
-    text-align: center;
-    color: white;
-    background-color: rgb(192, 20, 20);
-    margin-top: -4px;
-    padding: 20px;
-    padding-bottom: 40px;
-}
-
-.yeardate, .date{
-    font-size: 15px;
-}
-
-.date{
-    margin-top: -10px;
+    body{
+        font-family: Roboto, sans-serif;
+    }
 }
