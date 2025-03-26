@@ -1,5 +1,6 @@
 :root{
     --primary-color: white;
+    --secondary-color: green;
 }
 
 @media (min-width: 900px) {
@@ -19,7 +20,7 @@
 
     .picture{
         padding-top: 15px;
-        background-color: green;
+        background-color: var(--secondary-color);
     }
 
     body{
@@ -121,7 +122,7 @@
     }
     .titulo{
         text-align: center;
-        color: white;
+        color: var(--primary-color);
         background-color: rgb(192, 20, 20);
         padding: 25px;
         font-size: 20px;
@@ -129,11 +130,15 @@
 
     .picture{
         padding-top: 15px;
-        background-color: green;
+        background-color: var(--secondary-color);
         width: 485px;
     }
 
     body{
         font-family: Roboto, sans-serif;
+    }
+
+    .datah2::after{
+        content: "📊";
     }
 }
