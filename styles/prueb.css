@@ -1,0 +1,18 @@
+*{
+    max-width: 800px;
+    margin: auto;
+}
+
+.radio-line {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Espacio entre opciones */
+  }
+  
+  .radio-line label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+  }
+  
