@@ -14,73 +14,78 @@
         <script src="scripts/form.js" defer></script>
     </head>
     <body>
-        <h1>Product review</h1>
+        <header>
+            <h1>Product review</h1>
+        </header>
+        <main>
+            <form action="review.html" method="get">
+                <div class="optionpro">
+                    <label for="product"><span class="productname">Product name: </span><br></label>
+                    <select id="product" name="product" required>
+                    <option value="" disabled selected>Choose a Product ...</option>
+                    </select>
+                </div>
+                <h2>Overall Rating</h2>
+                <div class="radio-line">
+                    <label for="star1">
+                        ☆
+                        <input type="radio" id="star1" name="nivel" value="Básico" required>
+                    </label>
+                
+                    <label for="star2">
+                        ☆☆
+                        <input type="radio" id="star2" name="nivel" value="Intermedio" required>
+                    </label>
+                
+                    <label for="star3">
+                        ☆☆☆
+                        <input type="radio" id="star3" name="nivel" value="Avanzado" required>
+                    </label>
 
-        <form action="review.html" method="get">
-            <label for="product">Product name:</label>
-            <select id="product" name="product" required>
-            <option value="" disabled selected>Choose a Product ...</option>
-            </select>
-            <h2>Overall Rating</h2>
-            <div class="radio-line">
-                <label for="star1">
-                    ☆
-                    <input type="radio" id="star1" name="nivel" value="Básico" required>
-                </label>
-            
-                <label for="star2">
-                    ☆☆
-                    <input type="radio" id="star2" name="nivel" value="Intermedio" required>
-                </label>
-            
-                <label for="star3">
-                    ☆☆☆
-                    <input type="radio" id="star3" name="nivel" value="Avanzado" required>
-                </label>
+                    <label for="star4">
+                        ☆☆☆☆
+                        <input type="radio" id="star4" name="nivel" value="Avanzado" required>
+                    </label>
 
-                <label for="star4">
-                    ☆☆☆☆
-                    <input type="radio" id="star4" name="nivel" value="Avanzado" required>
-                </label>
-
-                <label for="star5">
-                    ☆☆☆☆☆
-                    <input type="radio" id="star5" name="nivel" value="Avanzado" required>
-                </label>
-            </div>
-            <h2>Date of installation</h2>
-            <div>
-                <label for="date"></label>
-                <input type="date" id="date" name="date" required>
-            </div>
-            <h2>Which features did you find useful in the product? <br><span>(check all that apply)</span></h2>
-            <div class="durability1">
-                <input type="checkbox" id="durability" name="durability" value="durability">
-                <label for="durability" data-content="option of product">Durability</label>
-            </div>
-            <div class="usefulease2">
-                <input type="checkbox" id="usefulease" name="usefulease" value="usefulease">
-                <label for="usefulease" data-content="option of product">Ease of Use</label>
-            </div>
-            <div class="performance3">
-                <input type="checkbox" id="performance" name="perform" value="perform">
-                <label for="performance" data-content="option of product">Performance</label>
-            </div>
-            <div class="design4">
-                <input type="checkbox" id="design" name="design" value="design">
-                <label for="design" data-content="option of product">Design</label>
-            </div>
-            <div class="textcontent">
-                <label for="text">Written Review<span class="optionrevi">(optional)</span><br></label>
-                <textarea id="text" name="text" rows="4" cols="50"></textarea>
-            </div>
-            <div class="textname">
-                <label for="textname">Your Name<span class="optionname">(optional)</span><br></label>
-                <input type="text" id="textname" name="textname">
-            </div>
-            <br><br>
-            <button type="submit">Post Review</button>
-        </form>
+                    <label for="star5">
+                        ☆☆☆☆☆
+                        <input type="radio" id="star5" name="nivel" value="Avanzado" required>
+                    </label>
+                </div>
+                <h2>Date of installation</h2>
+                <div>
+                    <label for="date"></label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <h2>Which features did you find useful in the product? <br><span>(check all that apply)</span></h2>
+                <div class="durability1">
+                    <input type="checkbox" id="durability" name="durability" value="durability">
+                    <label for="durability" data-content="option of product">Durability</label>
+                </div>
+                <div class="usefulease2">
+                    <input type="checkbox" id="usefulease" name="usefulease" value="usefulease">
+                    <label for="usefulease" data-content="option of product">Ease of Use</label>
+                </div>
+                <div class="performance3">
+                    <input type="checkbox" id="performance" name="perform" value="perform">
+                    <label for="performance" data-content="option of product">Performance</label>
+                </div>
+                <div class="design4">
+                    <input type="checkbox" id="design" name="design" value="design">
+                    <label for="design" data-content="option of product">Design</label>
+                </div>
+                <div class="textcontent">
+                    <label for="text">Written Review<span class="optionrevi">(optional)</span><br></label>
+                    <textarea id="text" name="text" rows="4" cols="50"></textarea>
+                </div>
+                <div class="textname">
+                    <label for="textname">Your Name<span class="optionname">(optional)</span><br></label>
+                    <input type="text" id="textname" name="textname">
+                </div>
+                <br>
+                <button type="submit">Post Review</button>
+            </form>
+        </main>
         <footer>
             <p class="yeardate">
                 &copy; <span id="currentyear"></span> 😁 Bruce Melendez Lozano 😁 Cajabamba
