@@ -37,4 +37,112 @@ main{
 #product{
     padding: 5px;
     padding-right: 250px;
+    margin-bottom: 10px;
+}
+
+.starra{
+    font-size: 12px;
+}
+
+.radio-line {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 10px;
+}
+  
+.radio-line label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.instadate{
+    font-size: 12px;
+}
+
+#date{
+    width: 386px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.questionti{
+    font-size: 12px;
+}
+
+.checkapp{
+    font-style: italic;
+}
+
+.durability1, .usefulease2, .performance3, .design4{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.durability1{
+    margin-top: 2px;
+}
+
+.design4{
+    margin-bottom: 10px;
+}
+
+.textcontent{
+    margin-bottom: 10px;
+}
+
+.reviti{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.optionrevi{
+    color: blue;
+    font-size: 10px;
+}
+
+.myname{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.optionname{
+    color: blue;
+    font-size: 10px;
+}
+
+#textname{
+    padding: 6px;
+    width: 380px;
+}
+
+.buttonpost{
+    display: grid;
+    width: 390px;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--primary-color);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family:Raleway, sans-serif;
+}
+
+.yeardate, .date{
+    color: #fff;
+    margin: -2px;
+}
+
+.yeardate{
+    padding-top: 10px;
+}
+
+.date{
+    padding-bottom: 10px;
 }

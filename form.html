@@ -25,7 +25,7 @@
                     <option value="" disabled selected>Choose a Product ...</option>
                     </select>
                 </div>
-                <h2>Overall Rating</h2>
+                <h2 class="starra">Overall Rating</h2>
                 <div class="radio-line">
                     <label for="star1">
                         ☆
@@ -52,12 +52,12 @@
                         <input type="radio" id="star5" name="nivel" value="Avanzado" required>
                     </label>
                 </div>
-                <h2>Date of installation</h2>
+                <h2 class="instadate">Date of installation</h2>
                 <div>
                     <label for="date"></label>
                     <input type="date" id="date" name="date" required>
                 </div>
-                <h2>Which features did you find useful in the product? <br><span>(check all that apply)</span></h2>
+                <h2 class="questionti">Which features did you find useful in the product? <br><span class="checkapp">(check all that apply)</span></h2>
                 <div class="durability1">
                     <input type="checkbox" id="durability" name="durability" value="durability">
                     <label for="durability" data-content="option of product">Durability</label>
@@ -75,15 +75,15 @@
                     <label for="design" data-content="option of product">Design</label>
                 </div>
                 <div class="textcontent">
-                    <label for="text">Written Review<span class="optionrevi">(optional)</span><br></label>
-                    <textarea id="text" name="text" rows="4" cols="50"></textarea>
+                    <label class="reviti" for="text">Written Review<span class="optionrevi"> (Optional)</span><br></label>
+                    <textarea id="text" name="text" rows="6" cols="51"></textarea>
                 </div>
-                <div class="textname">
-                    <label for="textname">Your Name<span class="optionname">(optional)</span><br></label>
+                <div class="textname2">
+                    <label class="myname" for="textname">Your Name<span class="optionname"> (Optional)</span><br></label>
                     <input type="text" id="textname" name="textname">
                 </div>
                 <br>
-                <button type="submit">Post Review</button>
+                <button class="buttonpost" type="submit">Post Review</button>
             </form>
         </main>
         <footer>
