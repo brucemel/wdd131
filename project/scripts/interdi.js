@@ -1,3 +1,10 @@
+const currentyear = document.querySelector("#currentyear");
+
+// use the data object
+const today = new Date();
+
+currentyear.innerHTML = `${today.getFullYear()}`;
+
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
