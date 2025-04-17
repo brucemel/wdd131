@@ -24,54 +24,69 @@ const temples = [
       "https://img.freepik.com/fotos-premium/vasos-plastico-colores-aislados-sobre-fondo-blanco_93675-36078.jpg?w=1380"
     },
     {
-      templeName: "Manti Utah",
-      location: "Manti, Utah, United States",
-      dedicated: "1888, May, 21",
-      area: 74792,
+      templeName: "Drink",
+      location: "Bucket with spout",
+      dedicated: "Plastic",
+      area:"200",
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+      "https://cdnx.jumpseller.com/productos-rey-preu/image/36171863/resize/1280/1280?1686146122"
     },
     {
-      templeName: "Payson Utah",
-      location: "Payson, Utah, United States",
-      dedicated: "2015, June, 7",
-      area: 96630,
+      templeName: "Drink",
+      location: "jugs",
+      dedicated: "Plastic",
+      area: "500",
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+      "https://i.ebayimg.com/images/g/gfoAAOSwAn1lplje/s-l1600.webp"
     },
     {
-      templeName: "Yigo Guam",
-      location: "Yigo, Guam",
-      dedicated: "2020, May, 2",
-      area: 6861,
+      templeName: "Eat",
+      location: "Tupperware",
+      dedicated: "Plastic",
+      area: "4539",
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+      "https://www.ikea.com/us/en/images/products/pruta-food-container-set-of-17-clear-green__0711382_pe728174_s5.jpg?f=xl"
     },
     {
-      templeName: "Washington D.C.",
-      location: "Kensington, Maryland, United States",
-      dedicated: "1974, November, 19",
-      area: 156558,
+      templeName: "Eat",
+      location: "Spoon",
+      dedicated: "Metal",
+      area: "186",
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+      "https://m.media-amazon.com/images/I/618F1Xwm49L.__AC_SX300_SY300_QL70_ML2_.jpg"
     },
     {
-      templeName: "Lima Perú",
-      location: "Lima, Perú",
-      dedicated: "1986, January, 10",
-      area: 9600,
+      templeName: "Eat",
+      location: "Salt shaker",
+      dedicated: "Plastic",
+      area: "454",
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
+      "https://m.media-amazon.com/images/I/61XanuOsq4L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
     },
     {
-      templeName: "Mexico City Mexico",
-      location: "Mexico City, Mexico",
-      dedicated: "1983, December, 2",
-      area: 116642,
+      templeName: "Drink",
+      location: "kettle",
+      dedicated: "Metal",
+      area: "5",
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+      "https://www.thespruceeats.com/thmb/1N0_r-dK_p9UhvWE63eeOLTqnoE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Testing_SusteasStovetopWhistling_Fred-Hardy_0205-3f61821dbf9548508f4ab0b864c7d381.jpg"
     },
-    // Add more temple objects here...
+    {
+      templeName: "Water",
+      location: "200-liter drums",
+      dedicated: "Plastic",
+      area: "15",
+      imageUrl:
+      "https://www.plastisol.pe/wp-content/uploads/2019/11/TACHO-VERDE-2.jpg"
+    },
+    {
+      templeName: "Clean Clothes",
+      location: "Tub",
+      dedicated: "Plastic",
+      area: "780",
+      imageUrl:
+      "https://plasticworld.in/wp-content/uploads/2023/08/Rectangular-Plastic-Tub.jpg"
+    },
 ];
   
 CreateTempleCard(temples)

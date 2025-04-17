@@ -1,6 +1,6 @@
 :root{
     --primarycolor: orange;
-    --secondcolor: rgba(0, 0, 255, 0.36);
+    --secondcolor: rgba(0, 0, 255, 0.464);
 }
 
 *{
@@ -11,12 +11,12 @@
 body {
     margin: 0;
     font-family: Raleway, sans-serif;
-    color: white;
 }
 
 .bodyback{
     background: var(--primarycolor) url("https://thumbs.dreamstime.com/b/art%C3%ADculos-pl%C3%A1sticos-del-hogar-100509801.jpg?w=768") no-repeat center center fixed;
     background-size: cover;
+    color: white;
 }
 
 .logoyes{
@@ -125,51 +125,72 @@ body {
 }
 
 
-
-
-
-
-div {display:grid; 
-    grid-template-columns: 400px 400px 400px;
+.conandabo{
+    display: grid;
+    grid-template-columns: 600px 600px;
     text-align: center;
 }
 
-.res-grid{
-    margin-left: -4px;
+.titleabo{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color: var(--secondcolor);
+    border-bottom: 1px solid var(--secondcolor);
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
-section{
-    border: 1px solid rgb(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #000000;
+.descripabout{
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.storeinter{
+    border-radius: 15px;
+    box-shadow: 0 0 10px var(--secondcolor);
+}
+
+#contac{
+    color: var(--primarycolor);
+    font-weight: bold;
+    font-size: 40px;
+    border-bottom: 1px solid var(--primarycolor);
+    padding-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+#address, #phone, #email{
+    font-weight: bold;
+}
+
+.sendus{
+    padding-bottom: 7px;
+}
+
+.email2{
+    padding-bottom: 10px;
+}
+
+.debajomap{
+    font-style: italic;
     font-size: 12px;
+    text-align: initial;
 }
 
-section img{
-    width: 210px;
-    height: 140px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 0 0 10px #333;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    
-}
 
-h3{
-    padding: 5px;
-    padding-top: 25px;
-    font-size: 20px;
-}
-  
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
+    }
+
+    .conandabo{
+        grid-template-columns: none;
     }
 }
   

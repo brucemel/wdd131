@@ -68,7 +68,8 @@ h2{
     padding-top: 30px;
 }
 
-div {display:grid; 
+div {
+    display:grid; 
     grid-template-columns: 270px 270px 270px;
     text-align: center;
 }
